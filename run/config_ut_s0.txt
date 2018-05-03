@@ -1,0 +1,20 @@
+W: dict
+ISC: 1
+TSC: 4
+TRC: 1
+PERF: 1
+name: ut
+tname: Target
+dname: DB
+sfname: TagPrivacyProb.txt
+r: 50per
+s: 0
+K: 2, 3, 4, 5, 10
+T: 5, 10, 15, 20
+C: 2
+save: 0
+skip: 99-99
+WN: 3
+wt_sameclass: 1.0
+wt_otherclass: 1.0
+SimTH: 0.0
