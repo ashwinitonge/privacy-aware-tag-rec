@@ -1,0 +1,2 @@
+featuresimilarity.NewString
+featuresimilarity.Porter
