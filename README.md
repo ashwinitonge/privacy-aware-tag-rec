@@ -31,14 +31,14 @@ If you find the repository useful for your research, please cite our paper:
     
 # Code
 
-1. Generate Similarity using Tag or Image features
-    java -jar FeatureSimilarity.jar config_ut_s0.txt
+    1. Generate Similarity using Tag or Image features
+        java -jar FeatureSimilarity.jar config_ut_s0.txt
    
-2. Identify top K similar images
-    java -jar TopKSimDocFinder.jar config_ut_s0.txt Target\Experiments\FeatureSim\ut_TagSimilarity_4_50per_0.csv
+    2. Identify top K similar images
+        java -jar TopKSimDocFinder.jar config_ut_s0.txt Target\Experiments\FeatureSim\ut_TagSimilarity_4_50per_0.csv
     
-3. Recommend tags
-    java -jar TagRecommendation.jar config_ut_s0.txt
+    3. Recommend tags
+        java -jar TagRecommendation.jar config_ut_s0.txt
     
-4. Generate performance of recommended tags
-    java -jar TagRecPerf.jar config_ut_s0.txt
+    4. Generate performance of recommended tags
+        java -jar TagRecPerf.jar config_ut_s0.txt
